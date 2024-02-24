@@ -60,14 +60,14 @@ export default function Projects() {
                 <p className='heading' style={{ color: '#6409E1' }}>Projects</p>
             </div>
             <div className="container w-100">
-                <div className="row text-center w-100 justify-content-center d-flex " >
+                <div className="row text-center d-flex justify-content-center" >
                     {projectsData.map((values) => {
                         return (
                             <div className=
                                 'cards col-sm-6 col-md-4 col-lg-3 mb-2 d-flex'  >
                                 <Cards name={values.name} details={values.details} img={values.image}
-                                link={values.link}
-                                type={values.type} />
+                                    link={values.link}
+                                    type={values.type} />
                             </div>
                         )
                     })}

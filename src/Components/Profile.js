@@ -6,7 +6,7 @@ const Profile = () => {
     return (<>
         <div className='cover w-100 h-auto p-3 rounded-1'>
             <div className='profile d-flex align-items-center '>
-                <img className='image img-fluid rounded-circle' src={img} alt='Hemant Goutam' />
+                <img className='image img-fluid ' src={img} alt='Hemant Goutam' />
                 <p className='name'>
                     <h2 className='text-white fw-bold'>Hemant Goutam</h2>
                     <div className='linksDiv d-flex justify-content-between '>
