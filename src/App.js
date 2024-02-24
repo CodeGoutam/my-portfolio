@@ -6,7 +6,7 @@ import Skills from './Components/Skills';
 
 export function App() {
     return (
-        <div style={{ padding: '1rem' }}>
+        <div style={{margin:'1rem', padding: '1rem',border:"1px solid grey",borderRadius:'1rem' }}>
             <Navbar />
             <div style={{ display: 'flex', width: '100%' }}>
                 <div className='skills' style={{ width: '30%', height: '100%' }}>
