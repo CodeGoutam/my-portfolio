@@ -12,7 +12,7 @@ export function App() {
                 <div className='skills' style={{ width: '30%', height: '100%' }}>
                     <Skills />
                 </div>
-                <div style={{ width: '100%' }}>
+                <div className='pe-2 ps-2' style={{ width: '100%', }}>
                     <Profile />
                     <div className='mobSkills '>
                         <Skills />

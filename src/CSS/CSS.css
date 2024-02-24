@@ -29,20 +29,24 @@
 .cover {
   height: 30vh;
   width: 100%;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
   background: url("../images/b.png ");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.profile {
+  height: 20vh;
+  width: 80%;
 }
 .image {
-  height: 9rem;
-  width: 8rem;
-  border: 4px white solid;
+  height: 8rem;
+  width:6rem;
+  border: 2px white solid;
   z-index: 1000;
-  padding: 0rem;
   object-fit: cover;
   background-color: #eaa615;
 }
@@ -103,11 +107,10 @@
   height: 12rem;
   perspective: 1000px;
   padding: 3px;
-  
 }
 
 .flip-card-inner {
-    border-radius: 30px;
+  border-radius: 30px;
   position: relative;
   width: 100%;
   height: 100%;
@@ -121,8 +124,8 @@
   transform: rotateY(180deg);
 } */
 .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
+  transform: rotateY(180deg);
+}
 
 .flip-card-front,
 .flip-card-back {
@@ -133,14 +136,14 @@
   backface-visibility: hidden;
 }
 .flip-card-front img {
-    border-radius: 10px;
-    width: 95% !important;
-    height: 85% !important;
-  }
+  border-radius: 10px;
+  width: 95% !important;
+  height: 85% !important;
+}
 .flip-card-front p {
-    font-size: large;
-    font-weight: 500;
-  }
+  font-size: large;
+  font-weight: 500;
+}
 
 .flip-card-front {
   background-color: #ffffff;
@@ -170,11 +173,11 @@
     height: 85% !important;
   }
   .flip-card-front p {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 400;
   }
 }
-@media screen and (min-width:300px) and (max-width: 575px)  {
+@media screen and (min-width: 300px) and (max-width: 575px) {
   .flip-card {
     width: 15rem !important;
     height: 12rem !important;
