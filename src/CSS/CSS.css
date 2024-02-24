@@ -44,11 +44,17 @@
 }
 .image {
   height: 8rem;
-  width:6rem;
+  width: 8rem;
   border: 2px white solid;
   z-index: 1000;
   object-fit: cover;
   background-color: #eaa615;
+}
+@media screen and (max-width: 300px) {
+  .image {
+    height: 5rem;
+    width: 5rem ;
+  }
 }
 .name {
   margin-left: 5rem;
