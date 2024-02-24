@@ -11,7 +11,7 @@ const Profile = () => {
                     <h2 className='text-white fw-bold'>Hemant Goutam</h2>
                     <div className='linksDiv d-flex justify-content-between '>
                         <Link className='links' to={'https://github.com/CodeGoutam'} target="_blank">
-                            <i class="fa-brands fa-github me-2 "></i> <span className='labels'>GiHub</span>
+                            <i class="fa-brands fa-github me-2 "></i> <span className='labels'>Github</span>
                         </Link>
                         <Link className='links' to={'https://www.linkedin.com/in/hemant-goutam/'} target="_blank">
                             <i class="fa-brands fa-linkedin me-2 "></i> <span className='labels'>LinkedIn</span>
