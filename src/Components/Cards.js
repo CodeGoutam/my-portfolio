@@ -13,7 +13,7 @@ export default function Cards(props) {
                     <p className='p-1 '>{props.name}</p>
 
                 </div>
-                <div className="flip-card-back p-3 d-grid">
+                <div className="flip-card-back  d-grid">
 
                     <h6>{props.details}</h6>
 

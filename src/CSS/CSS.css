@@ -208,7 +208,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    /* background-color: #d7d7d7; */
+    padding: 1rem;
     color: black;
     transform: rotateY(180deg);
   }
@@ -217,28 +217,45 @@
 @media screen and (max-width: 300px) {
   .flip-card {
     width: 10rem !important;
-    height: 12rem !important;
+    height: 15rem !important;
   }
   .flip-card-front .flip-card-back {
     width: 8rem !important;
-    height: 11rem !important;
+    height: 15rem !important;
   }
   .flip-card-front img {
     width: 95% !important;
-    height: 85% !important;
+    height: 65% !important;
   }
   .flip-card-front p {
     font-size: 0.9rem;
     font-weight: 400;
   }
+
+  .flip-card-back h6 {
+    padding: 2px;
+    font-size: 0.7rem;
+  }
 }
 
 /* contact me form */
-.fields {
-  margin: 1rem;
+.form {
+  width: 100%;
+  height: 100vh;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+.form h1 {
+  color: #573685;
+}
+.formBox {
+  width: 50%;
+  margin: auto;
+  display: flex;
 }
 @media screen and (max-width: 430px) {
-  .form {
+  form {
     width: 100% !important;
   }
 }
@@ -371,7 +388,7 @@ textarea:focus {
   font-size: 18px;
   width: 200px;
   height: 48px;
-  color:white;
+  color: white;
   background: grey;
   cursor: pointer;
   display: inline-block;
@@ -384,11 +401,19 @@ textarea:focus {
   margin-right: 6px;
 }
 
-.btn:hover {
-  background: #fff;
+.connectBtn {
+  background-color: white;
+  border: 2px solid #6409e1;
+  color: #6409e1;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+.connectBtn:hover {
+  background: #6409e1;
   outline: none;
-  box-shadow: 0 4px #cecece;
-  top: 2px;
+  transition: 500ms;
+  color: white;
 }
 
 .btn:active {
@@ -530,4 +555,30 @@ textarea:focus {
   .icon {
     display: none;
   }
+}
+
+/* footer */
+.footer {
+  background: #6409e1;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  display: flex;
+  font-weight: bold;
+  font-size: 1rem;
+  justify-content: center;
+}
+.icons {
+  text-decoration: none;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  border-radius: 100%;
+  border: 1px solid white;
+  color: white;
+}
+.icons:hover {
+  color: #6409e1;
+  background: white;
+  transition: 500ms;
 }
