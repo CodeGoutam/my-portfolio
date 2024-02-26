@@ -250,10 +250,15 @@
   color: #573685;
 }
 .formBox {
-  width: 50%;
+  /* width: 70%; */
   margin: auto;
   display: flex;
 }
+@media screen and (min-width: 550px) {
+    .formBox{
+        width: 60%;
+    }
+  }
 @media screen and (max-width: 430px) {
   form {
     width: 100% !important;
