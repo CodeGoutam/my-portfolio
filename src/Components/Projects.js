@@ -7,15 +7,13 @@ import Portfolio from '../images/favicon.png'
 import foodapp from '../images/food-app.png'
 import quicksolve from '../images/quicksolve.png'
 import todo from '../images/todo.jpg'
-
-
 export default function Projects() {
     const projectsData = [
         {
             name: "GoFood",
             details: 'HTML , CSS , JavaScript , ReactJS , NodeJS , ExpressJS , MongoDB',
             image: GoFood,
-            link: "#",
+            link: "https://github.com/CodeGoutam/GoFood",
             type: "Website"
         },
         {
@@ -29,30 +27,24 @@ export default function Projects() {
             name: "Order Food",
             details: 'Java , XML',
             image: foodapp,
-            link: "#",
+            link: "https://github.com/CodeGoutam/Order-Food",
             type: "Mobile App"
         },
         {
             name: "Quick Solve",
             details: 'Java , XML',
             image: quicksolve,
-            link: "#",
+            link: "https://github.com/CodeGoutam/QuickSolve",
             type: "Mobile App"
         },
         {
             name: "Portfolio",
             details: 'HTML , CSS , JavaScript , ReactJS ',
             image: Portfolio,
-            link: "#",
+            link: "https://port-folio-hemant.netlify.app/",
             type: "Website"
         },
-        {
-            name: "To-Do-List",
-            details: 'HTML , CSS , JavaScript ',
-            image: todo,
-            link: "#",
-            type: "Website"
-        },
+       
     ]
     return (
         <div className='w-100 pt-2 pb-2'>
