@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import '../CSS/CSS.css'
-import img from '../images/h.png'
-import bg from '../images/b.png'
+// import img from '../images/avatar.jpg'
+import img from '../images/a5.jpg'
+// import bg from '../images/b.png'
 
 const Profile = () => {
     return (

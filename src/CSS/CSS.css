@@ -37,12 +37,14 @@ body {
 }
 .profile {
   padding: 0.4rem;
-  background-image: url('b.png');
+  background-image: url("b.png");
   background-size: cover;
 }
 .profile img {
-  height: 18vh;
-  width: 18vh;
+  /* width: 18vh;
+    height: 18vh; */
+  height: 6rem;
+  width: 6rem;
 }
 .links {
   color: wheat;
