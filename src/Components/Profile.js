@@ -5,7 +5,7 @@ import img from '../images/h.png'
 import bg from '../images/b.png'
 
 const Profile = () => {
-    return (<div className='profileDiv'>
+    return (
         <div className='profile rounded-5  d-flex align-items-center  justify-content-around '>
             <img className='img-fluid rounded-circle ' src={img} />
             <div className=''>
@@ -20,7 +20,7 @@ const Profile = () => {
                 </div>
             </div>
         </div >
-    </div>
+  
     )
 }
 export default Profile

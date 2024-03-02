@@ -29,13 +29,7 @@ body {
 /* navbar css */
 
 /* for profile page */
-.profileDiv {
-  max-height: 25vh;
-  max-width: 100%;
-  background-image: url('b.png');
-  background-size: cover;
- 
-}
+/*  */
 .cover {
   height: 25vh;
   width: 100%;
@@ -43,6 +37,8 @@ body {
 }
 .profile {
   padding: 0.4rem;
+  background-image: url('b.png');
+  background-size: cover;
 }
 .profile img {
   height: 18vh;
