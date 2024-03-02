@@ -1,6 +1,6 @@
 /* app.js */
-body{
-    /* font-size: 1vw; */
+body {
+  /* font-size: 1vw; */
 }
 .mobSkills {
   display: none;
@@ -29,18 +29,24 @@ body{
 /* navbar css */
 
 /* for profile page */
-.profile {
+.profileDiv {
   max-height: 25vh;
   max-width: 100%;
+  background-image: url('b.png');
+  background-size: cover;
+ 
+}
+.cover {
+  height: 25vh;
+  width: 100%;
+  z-index: 0;
+}
+.profile {
   padding: 0.4rem;
-  background: url("b.png");
 }
 .profile img {
   height: 18vh;
-}
-
-.name {
-  margin-left: 5rem;
+  width: 18vh;
 }
 .links {
   color: wheat;
