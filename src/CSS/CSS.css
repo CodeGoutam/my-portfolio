@@ -1,4 +1,7 @@
 /* app.js */
+body{
+    /* font-size: 1vw; */
+}
 .mobSkills {
   display: none;
 }
@@ -26,37 +29,16 @@
 /* navbar css */
 
 /* for profile page */
-.cover {
-  height: 30vh;
-  width: 100%;
-  padding-left: 4rem !important;
-  padding-right: 4rem !important;
-  background: url("../images/b.png ");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .profile {
-  height: 20vh;
-  width: 80%;
+  max-height: 25vh;
+  max-width: 100%;
+  padding: 0.4rem;
+  background: url("b.png");
 }
-.image {
-  height: 100%;
-  width: 6rem;
-  border: 2px white solid;
-  z-index: 1000;
-  object-fit: cover;
-  background-color: #eaa615;
-  border-radius: 2rem;
+.profile img {
+  height: 18vh;
 }
-@media screen and (max-width: 300px) {
-  .image {
-    height: 5rem;
-    width: 5rem;
-  }
-}
+
 .name {
   margin-left: 5rem;
 }
@@ -68,22 +50,6 @@
   font-size: large;
 }
 
-@media screen and (max-width: 350px) {
-  .cover {
-    padding: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  .profile {
-    justify-content: space-around;
-  }
-  .name {
-    margin-left: 1rem;
-  }
-  .icon {
-    display: none;
-  }
-}
 @media screen and (max-width: 500px) {
   .labels {
     display: none;
@@ -255,10 +221,10 @@
   display: flex;
 }
 @media screen and (min-width: 550px) {
-    .formBox{
-        width: 60%;
-    }
+  .formBox {
+    width: 60%;
   }
+}
 @media screen and (max-width: 430px) {
   form {
     width: 100% !important;
