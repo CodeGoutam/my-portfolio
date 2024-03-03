@@ -138,6 +138,9 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
+  .flip-card-back{
+    display: block;
+  }
   .flip-card-front img {
     border-radius: 10px;
     width: 100% !important;
@@ -189,6 +192,7 @@ body {
   }
 }
 @media screen and (min-width: 300px) and (max-width: 550px) {
+    
   .flip-card {
     width: 15rem !important;
     height: 9rem !important;

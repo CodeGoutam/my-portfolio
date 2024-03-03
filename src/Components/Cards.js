@@ -10,7 +10,7 @@ export default function Cards(props) {
                 <div className="flip-card-front p-2 ">
                     <img className='img' src={props.img} alt="Avatar" />
                 </div>
-                <div className="flip-card-back d-sm-none">
+                <div className="flip-card-back ">
                     <h6>{props.details}</h6>
                 </div>
             </div>
