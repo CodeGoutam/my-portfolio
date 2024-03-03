@@ -44,19 +44,17 @@ export default function Projects() {
             link: "https://port-folio-hemant.netlify.app/",
             type: "Website"
         },
-       
+
     ]
     return (
         <div className='w-100 pt-2 pb-2'>
-            <div>
-                <p className='heading rounded ps-3' style={{ color: '#560bad',}}>Projects</p>
-            </div>
+            <h4 className='heading rounded ps-3' style={{ color: '#560bad', }}>Projects</h4>
             <div className="container w-100">
-                <div className="row text-center d-flex justify-content-center" >
+                <div className="row text-center d-flex" >
                     {projectsData.map((values) => {
                         return (
                             <div className=
-                                'cards col-sm-6 col-md-4 col-lg-3 mb-2 d-flex'  >
+                                'cards col-sm-6 col-md-4 col-lg-3 mb-2 d-flex p-1'  >
                                 <Cards name={values.name} details={values.details} img={values.image}
                                     link={values.link}
                                     type={values.type} />

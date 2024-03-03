@@ -13,8 +13,11 @@ export default function Skills() {
         return `rgb(${r},${g},${b})`;
     }
     return (
-        <div className='container' style={{ width: "100%" }}>
-            <div className="card" style={{ background: 'transparent', }}>
+        <div className='container' style={{ width: "100%", }}>
+            <div className="card" style={{ background: 'transparent',border:'none' }}>
+            <div>
+                <h4 className='heading rounded ps-3' style={{ color: '#560bad',}}>Skills</h4>
+            </div>
                 <div className="card-body">
                     {skills.map((items) => {
                         return (<>
