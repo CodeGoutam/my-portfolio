@@ -166,7 +166,7 @@ body {
 
 @media screen and (max-width: 300px) {
   .flip-card {
-    width: 8rem !important;
+    width: 15rem !important;
     height: 8rem !important;
   }
   .flip-card-front .flip-card-back {
