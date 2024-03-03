@@ -21,8 +21,8 @@ export default function Contact() {
     return (
 
         <div className='form' >
-            <Link to={"/"} style={{ margin: '1rem', textDecoration: 'none', color: "#573685" }}><i class="fa-solid fa-backward"></i> Back</Link>
-            <h1>Connect with me ..</h1>
+            <Link to={"/"} style={{ margin: '1rem', textDecoration: 'none', color: "#83C5BE" }}><i class="fa-solid fa-backward"></i> Back</Link>
+            <h1 style={{color:"#83C5BE"}}>Connect with me ..</h1>
             <div className="formBox " id="wpcf7-f156-p143-o1  ">
                 <form ref={form} onSubmit={sendEmail} method="post" className="wpcf7-form" novalidate="novalidate">
                     <p>
