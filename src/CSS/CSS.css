@@ -195,11 +195,11 @@ body {
   }
   .flip-card-front .flip-card-back {
     width: 100% !important;
-    height: 100% !important;
+    height: 12rem !important;
   }
   .flip-card-front img {
     width: 100% !important;
-    height: 100% !important;
+    height: 12rem !important;
     aspect-ratio: 1;
   }
   .flip-card-front p {
