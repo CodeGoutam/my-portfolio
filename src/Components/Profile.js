@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import '../CSS/CSS.css'
 // import img from '../images/avatar.jpg'
 import img from '../images/a5.jpg'
-// import bg from '../images/b.png'
+import bg from '../images/h.png'
 
 const Profile = () => {
     return (
         <div className='profile rounded-5  d-flex align-items-center  justify-content-around '>
-            <img className='img-fluid rounded-circle ' src={img} />
+            <img className='img-fluid rounded-circle ' src={bg} />
             <div className=''>
                 <h2 className='fw-bold' style={{ fontSize: "4vw", color: 'white' }}>Hemant Goutam</h2>
                 <div className='linksDiv d-flex justify-content-between '>
