@@ -49,7 +49,7 @@ export default function Projects() {
     return (
         <div className='w-100 pt-2 pb-2'>
             <div>
-                <p className='heading' style={{ color: '#6409E1' }}>Projects</p>
+                <p className='heading rounded ps-3' style={{ color: '#560bad',}}>Projects</p>
             </div>
             <div className="container w-100">
                 <div className="row text-center d-flex justify-content-center" >

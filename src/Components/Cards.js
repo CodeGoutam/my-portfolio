@@ -9,8 +9,8 @@ export default function Cards(props) {
         <Link to={props.link ? props.link : "/"} target='_blank' className="flip-card m-1" >
             <div className="flip-card-inner">
                 <div className="flip-card-front p-2 ">
-                    <img src={props.img} alt="Avatar" />
-                    <p className='p-1 '>{props.name}</p>
+                    <img className='img' src={props.img} alt="Avatar" />
+                    <p className='p-1' style={{color:"#14213d"}}>{props.name}</p>
 
                 </div>
                 <div className="flip-card-back  d-grid">

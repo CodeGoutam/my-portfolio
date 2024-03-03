@@ -18,7 +18,7 @@ export default function Skills() {
                 <div className="card-body">
                     {skills.map((items) => {
                         return (<>
-                            <p style={{ color: '#6409E1' }}> {items.tag}</p>
+                            <p className='rounded' style={{ color: 'white',backgroundColor:"#83c5be",textAlign:'center'}}> {items.tag}</p>
                             <span>{items.names.map((values, index) => {
                                 randomColors()
                                 return (

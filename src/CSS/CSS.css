@@ -1,6 +1,6 @@
 /* app.js */
-body {
-  /* font-size: 1vw; */
+body{
+    background-color: e9d8a6;
 }
 .mobSkills {
   display: none;
@@ -378,14 +378,14 @@ textarea:focus {
 
 .connectBtn {
   background-color: white;
-  border: 2px solid #6409e1;
-  color: #6409e1;
+  border: 2px solid #83C5BE;
+  color: #83C5BE;
   padding: 0.4rem;
   border-radius: 1rem;
   text-decoration: none;
 }
 .connectBtn:hover {
-  background: #6409e1;
+  background: #83C5BE;
   outline: none;
   transition: 500ms;
   color: white;
@@ -534,7 +534,7 @@ textarea:focus {
 
 /* footer */
 .footer {
-  background: #6409e1;
+  background: #83C5BE;
   border-radius: 1rem;
   padding: 1rem;
   margin: 1rem;
