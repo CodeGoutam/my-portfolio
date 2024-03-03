@@ -14,7 +14,7 @@ export default function Cards(props) {
                     <h6>{props.details}</h6>
                 </div>
             </div>
-            <Link className='text-decoration-none' to={props.link} style={{ color: "#03045e",position:''}}>{props.name}</Link>
+            <Link className='text-decoration-none  ' to={props.link} style={{ color: "#03045e",  }}>{props.name}</Link>
         </Link>
     </>)
 }

@@ -191,15 +191,15 @@ body {
 @media screen and (min-width: 300px) {
   .flip-card {
     width: 15rem !important;
-    height: 12rem !important;
+    height: 7rem !important;
   }
   .flip-card-front .flip-card-back {
     width: 100% !important;
-    height: 12rem !important;
+    height: 7rem !important;
   }
   .flip-card-front img {
     width: 100% !important;
-    height: 12rem !important;
+    height: 6rem !important;
     aspect-ratio: 1;
   }
   .flip-card-front p {

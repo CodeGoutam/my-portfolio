@@ -54,7 +54,7 @@ export default function Projects() {
                     {projectsData.map((values) => {
                         return (
                             <div className=
-                                'cards col-sm-6 col-md-4 col-lg-3 mb-2 d-flex p-1'  >
+                                'cards col-sm-6 col-md-4 col-lg-3 mb-2 d-flex p-2'  >
                                 <Cards name={values.name} details={values.details} img={values.image}
                                     link={values.link}
                                     type={values.type} />
