@@ -73,7 +73,7 @@ body {
   }
   .flip-card {
     background-color: white;
-    width: 100%;
+    width: 13rem;
     height: 9rem;
     perspective: 1000px;
   }
@@ -110,7 +110,7 @@ body {
 @media screen and (min-width: 575px) {
   .flip-card {
     background-color: white;
-    width: 100%;
+    width: 15rem;
     height: 10rem;
     perspective: 1000px;
   }
@@ -163,9 +163,10 @@ body {
   }
 }
 
+
 @media screen and (max-width: 300px) {
   .flip-card {
-    width: 100% !important;
+    width: 8rem !important;
     height: 8rem !important;
   }
   .flip-card-front .flip-card-back {
