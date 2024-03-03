@@ -48,9 +48,9 @@ export default function Projects() {
     ]
     return (
         <div className='w-100 pt-2 pb-2'>
-            <h4 className='heading rounded ps-3' style={{ color: '#560bad', }}>Projects</h4>
+            <h4 className='heading rounded ps-3' style={{ color: '#560bad',}}>Projects</h4>
             <div className="container w-100">
-                <div className="row text-center d-flex" >
+                <div className="row text-center d-flex justify-content-center " >
                     {projectsData.map((values) => {
                         return (
                             <div className=

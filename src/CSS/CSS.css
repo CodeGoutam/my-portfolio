@@ -73,7 +73,7 @@ body {
   }
   .flip-card {
     background-color: white;
-    width: 13rem;
+    width: 100%;
     height: 9rem;
     perspective: 1000px;
   }
@@ -110,7 +110,7 @@ body {
 @media screen and (min-width: 575px) {
   .flip-card {
     background-color: white;
-    width: 15rem;
+    width: 100%;
     height: 10rem;
     perspective: 1000px;
   }
@@ -165,15 +165,15 @@ body {
 
 @media screen and (max-width: 300px) {
   .flip-card {
-    width: 10rem !important;
+    width: 100% !important;
     height: 8rem !important;
   }
   .flip-card-front .flip-card-back {
-    width: 10rem !important;
+    width: 100% !important;
     height: 8rem !important;
   }
   .flip-card-front img {
-    width: 7rem !important;
+    width: 100% !important;
     height: 7rem !important;
     aspect-ratio: 1;
   }
