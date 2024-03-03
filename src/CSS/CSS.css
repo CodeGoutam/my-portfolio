@@ -188,18 +188,18 @@ body {
     font-size: 0.7rem;
   }
 }
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 300px) and (max-width: 550px) {
   .flip-card {
     width: 15rem !important;
-    height: 7rem !important;
+    height: 9rem !important;
   }
   .flip-card-front .flip-card-back {
     width: 100% !important;
-    height: 7rem !important;
+    height: 9rem !important;
   }
   .flip-card-front img {
     width: 100% !important;
-    height: 6rem !important;
+    height: 8rem !important;
     aspect-ratio: 1;
   }
   .flip-card-front p {
