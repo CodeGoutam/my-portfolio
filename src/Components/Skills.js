@@ -25,7 +25,7 @@ export default function Skills() {
                             <span>{items.names.map((values, index) => {
                                 randomColors()
                                 return (
-                                    <button key={index} className='skill card  m-1' style={{ background: 'transparent', color: "#808086", fontFamily: "cursive", borderColor: randomColors() }}>{values}</button>
+                                    <button key={index} className='skill card  m-1' style={{ background: 'transparent', color: "#808086", borderColor: randomColors() }}>{values}</button>
                                 )
                             })}</span>
                             <hr />

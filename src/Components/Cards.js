@@ -4,17 +4,15 @@ import { Link } from 'react-router-dom'
 
 export default function Cards(props) {
     return (<>
-        {/*  flip card */}
-        <Link to={props.link} target='_blank' className="flip-card m-1 text-decoration-none " >
-            <div className="flip-card-inner">
-                <div className="flip-card-front p-2 ">
-                    <img className='img' src={props.img} alt="Avatar" />
-                </div>
-                <div className="flip-card-back ">
-                    <h6>{props.details}</h6>
-                </div>
+        <div className='h-auto w-100 rounded shadow '>
+            <div className='w-75 h-auto m-auto  p-2'>
+                <img className='h-100 w-100 rounded-circle p-2' src={props.img} />
             </div>
-            <Link className='text-decoration-none  ' to={props.link} style={{ color: "#03045e",  }}>{props.name}</Link>
-        </Link>
+            <div className='h-25 w-100 '>
+                <p className=''><b>{props.name}</b> ({props.type})</p>
+                <p>{props.details}</p>
+            </div>
+
+        </div>
     </>)
 }

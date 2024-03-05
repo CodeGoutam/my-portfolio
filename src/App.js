@@ -7,7 +7,7 @@ import Footer from './Components/Footer';
 
 export function App() {
     return (
-        <div style={{ margin: '1rem', padding: '1rem',}}>
+        <div>
             <Navbar />
             <div style={{ display: 'flex', width: '100%' }}>
                 <div className='skills' style={{ width: '30%', height: '100%' }}>
