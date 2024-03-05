@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom'
 
 export default function Cards(props) {
     return (<>
-        <div className='h-auto w-100 rounded shadow '>
+        <Link to={props.link} target="_blank" className='h-auto w-100 rounded shadow text-decoration-none p-1 m-1'>
             <div className='w-75 h-auto m-auto  p-2'>
-                <img className='h-100 w-100 rounded-circle p-2' src={props.img} />
+                <img className='h-75 w-75 rounded-circle p-2' src={props.img} />
             </div>
             <div className='h-25 w-100 '>
-                <p className=''><b>{props.name}</b> ({props.type})</p>
-                <p>{props.details}</p>
+                <p className='' style={{color:"#03045E"}}><b>{props.name}</b> ({props.type})</p>
+                <p style={{color:"grey"}}>{props.details}</p>
             </div>
 
-        </div>
+        </Link>
     </>)
 }
