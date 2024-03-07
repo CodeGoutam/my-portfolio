@@ -11,7 +11,7 @@ export default function Cards(props) {
             backgroundBlendMode: 'color-dodge'
         }}>
             <div className='w-75 h-auto m-auto  p-2'>
-                <img className='h-75 w-75 rounded-circle p-2' style={{ border: "solid 0px white" }} src={props.img} />
+                <img className='h-75 w-75 rounded-circle p-2' style={{ border: "solid 2px white" }} src={props.img} />
             </div>
             <div className='h-25 w-100 '>
                 <p className='rounded' style={{ color: "#03045E" }}><b>{props.name}</b> ({props.type})</p>
