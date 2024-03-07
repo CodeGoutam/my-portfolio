@@ -4,7 +4,7 @@ import Profile from './Components/Profile';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Footer from './Components/Footer';
-
+import img from '../src/images/GoFood.png'
 export function App() {
     return (
         <div>
