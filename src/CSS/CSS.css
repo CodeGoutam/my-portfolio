@@ -138,7 +138,7 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  .flip-card-back{
+  .flip-card-back {
     display: block;
   }
   .flip-card-front img {
@@ -166,7 +166,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 300px) {
   .flip-card {
     width: 15rem !important;
@@ -192,7 +191,6 @@ body {
   }
 }
 @media screen and (min-width: 300px) and (max-width: 550px) {
-    
   .flip-card {
     width: 15rem !important;
     height: 9rem !important;
@@ -562,7 +560,15 @@ textarea:focus {
   color: white;
 }
 .icons:hover {
-  color: #6409e1;
+  color: #83c5be;
   background: white;
   transition: 500ms;
+}
+.icon {
+  display: inline;
+}
+@media only screen and (max-width: 1100px) {
+  .icon {
+    display: none;
+  }
 }

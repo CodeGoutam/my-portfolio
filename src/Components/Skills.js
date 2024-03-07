@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react'
 export default function Skills() {
     const [clr, setClr] = useState();
     const skills = [
-        { tag: 'Website Development', names: ["HTML", "CSS", "JavaScript", "NodeJS", "ReactJS", "MongoDB", "ExpressJS"] },
+        { tag: 'Website Development', names: ["HTML", "CSS", "Bootstrap", "JavaScript", "NodeJS", "ReactJS", "MongoDB", "ExpressJS"] },
         { tag: 'Android Development', names: ["Java", "XML"] },
-        { tag: 'Programming Languages', names: ["Java", "C++", "C"] }]
+        { tag: 'Programming Languages', names: ["Java", "C++", "C"] },
+        { tag: 'Development Tools', names: ["VSCode", "Netlify", "Android Studio","Github"] }]
     function randomColors() {
         let r = Math.floor(Math.random() * 400);
         let g = Math.floor(Math.random() * 400);
@@ -14,14 +15,14 @@ export default function Skills() {
     }
     return (
         <div className='container' style={{ width: "100%", }}>
-            <div className="card" style={{ background: 'transparent',border:'none' }}>
-            <div>
-                <h4 className='heading rounded ps-3' style={{ color: '#560bad',}}>Skills</h4>
-            </div>
+            <div className="card" style={{ background: 'transparent', border: 'none' }}>
+                <div>
+                    <h4 className='heading rounded ps-3' style={{ color: '#560bad', }}>Skills</h4>
+                </div>
                 <div className="card-body">
                     {skills.map((items) => {
                         return (<>
-                            <p className='rounded' style={{ color: 'white',backgroundColor:"#83c5be",textAlign:'center'}}> {items.tag}</p>
+                            <p className='rounded p-1' style={{ color: 'white', backgroundColor: "#83c5be", textAlign: 'center' }}> {items.tag}</p>
                             <span>{items.names.map((values, index) => {
                                 randomColors()
                                 return (
