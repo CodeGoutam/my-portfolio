@@ -8,7 +8,7 @@ export default function Cards(props) {
     return (<>
         <Link to={props.link} target="_blank" className='h-auto w-100 rounded shadow text-decoration-none p-1 m-3' style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', }}>
             <div className='w-75 h-auto m-auto  p-2'>
-                <img className='h-75 w-75 rounded-circle p-2' style={{ border: "solid 2px white" }} src={props.img} />
+                <img className='h-75 w-75 rounded-circle p-2' style={{ border: "solid 3px white" }} src={props.img} />
             </div>
             <div className='h-25 w-100 '>
                 <p className='' style={{ color: "#03045E" }}><b>{props.name}</b> ({props.type})</p>
