@@ -5,6 +5,7 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Footer from './Components/Footer';
 import img from '../src/images/GoFood.png'
+import About from './Components/About';
 export function App() {
     return (
         <div>
@@ -19,7 +20,9 @@ export function App() {
                         <Skills />
                     </div>
                     <Projects />
-
+                </div>
+                <div className='w-25'>
+                    <About/>
                 </div>
             </div>
             <Footer />

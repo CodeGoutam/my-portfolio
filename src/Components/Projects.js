@@ -13,7 +13,7 @@ export default function Projects() {
             name: "GoFood",
             details: 'HTML , CSS , JavaScript , ReactJS , NodeJS , ExpressJS , MongoDB',
             image: GoFood,
-            link: "https://github.com/CodeGoutam/GoFood",
+            link: "https://66352f08ee937637b0591a09--wonderful-souffle-c1ea68.netlify.app/",
             type: "Website"
         },
         {
