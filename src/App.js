@@ -5,7 +5,7 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Footer from './Components/Footer';
 import img from '../src/images/GoFood.png'
-import About from './Components/About';
+
 export function App() {
     return (
         <div>
