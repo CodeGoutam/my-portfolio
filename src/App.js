@@ -21,9 +21,7 @@ export function App() {
                     </div>
                     <Projects />
                 </div>
-                <div className='w-25'>
-                    <About/>
-                </div>
+            
             </div>
             <Footer />
 
