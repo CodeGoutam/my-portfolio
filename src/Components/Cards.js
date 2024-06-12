@@ -6,8 +6,9 @@ import bg from "../images/bg6.jpg"
 
 export default function Cards(props) {
     return (<>
-        <Link to={props.link} target="_blank" className='h-auto w-100 rounded shadow text-decoration-none p-1 m-3' style={{
-            backgroundImage: `url(${bg})`, backgroundSize: 'cover',
+        <Link to={props.link} target="_blank" className='h-auto w-100 rounded  text-decoration-none p-1 m-3' style={{
+            // backgroundImage: `url(${bg})`,
+            backgroundSize: 'cover',
             backgroundBlendMode: 'color-dodge'
         }}>
             <div className='w-75 h-auto m-auto  p-2'>
